@@ -16,9 +16,9 @@ const MiSelect = () => {
         value={country}
         onChange={handleChange}
         fullWidth
-        SelectProps={{
-            multiple:true
-        }}
+        // SelectProps={{
+        //     multiple:true
+        // }}
         color="secondary"
       >
         <MenuItem value="PK">Pakistan</MenuItem>

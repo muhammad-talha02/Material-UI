@@ -5,18 +5,21 @@
 import MIRadio from "./components/MIRadio"
 import MiCheckbox from "./components/MiCheckbox"
 
-// import MiSelect from "./components/MiSelect"
+import MiSelect from "./components/MiSelect"
+import MiSwitch from "./components/MiSwitch"
 
 function App() {
 
   return (
     <>
-  {/* <MiButtons/> */}
-  {/* <MiTextField/> */}
-  {/* <MiSelect/> */}
-  <MIRadio/>
-  <hr/>
-  <MiCheckbox/>
+      {/* <MiButtons/> */}
+      {/* <MiTextField/> */}
+      {/* <MiSelect/> */}
+      {/* <MIRadio/> */}
+      {/* <hr /> */}
+      {/* <MiCheckbox/> */}
+      <hr />
+      <MiSwitch />
     </>
   )
 }
