@@ -4,6 +4,7 @@
 
 import MIRadio from "./components/MIRadio"
 import MiAutocomplete from "./components/MiAutocomplete"
+import MiBox from "./components/MiBox"
 import MiCheckbox from "./components/MiCheckbox"
 import MiRating from "./components/MiRating"
 
@@ -24,7 +25,8 @@ function App() {
       {/* <hr /> */}
       {/* <MiSwitch /> */}
       {/* <MiRating/> */}
-      <MiAutocomplete/>
+      {/* <MiAutocomplete/> */}
+      <MiBox/>
     </>
   )
 }
