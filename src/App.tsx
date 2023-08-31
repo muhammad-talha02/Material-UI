@@ -3,7 +3,9 @@
 // import MiTextField from './components/MiTextField'
 
 import MIRadio from "./components/MIRadio"
+import MiAutocomplete from "./components/MiAutocomplete"
 import MiCheckbox from "./components/MiCheckbox"
+import MiRating from "./components/MiRating"
 
 import MiSelect from "./components/MiSelect"
 import MiSwitch from "./components/MiSwitch"
@@ -18,8 +20,11 @@ function App() {
       {/* <MIRadio/> */}
       {/* <hr /> */}
       {/* <MiCheckbox/> */}
-      <hr />
-      <MiSwitch />
+      {/* <hr /> */}
+      {/* <hr /> */}
+      {/* <MiSwitch /> */}
+      {/* <MiRating/> */}
+      <MiAutocomplete/>
     </>
   )
 }
