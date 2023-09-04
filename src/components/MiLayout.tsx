@@ -1,7 +1,7 @@
-import { Box, Stack, Divider, Grid } from "@mui/material";
+import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 const MiBox = () => {
   return (
-    <>
+    <Paper sx={{padding:"10px"}} elevation={4}>
       <Stack
         sx={{ border: "1px solid red" }}
         direction="row"
@@ -42,14 +42,14 @@ const MiBox = () => {
         <Grid item xs>
           <Box bgcolor="primary.light" p={2}>Item 1</Box>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs>
           <Box bgcolor="primary.light" p={2}>Item 1</Box>
         </Grid>
         <Grid item xs>
           <Box bgcolor="primary.light" p={2}>Item 1</Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 };
 
