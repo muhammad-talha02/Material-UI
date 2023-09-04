@@ -1,7 +1,7 @@
-import { Box } from "@mui/material";
+import { Box, Stack, Divider } from "@mui/material";
 const MiBox = () => {
   return (
-    <Box>
+    <Stack sx={{border:"1px solid red"}} direction="row" spacing={2} divider={<Divider orientation="vertical" flexItem/>}>
       <Box
         component="section"
         sx={{
@@ -22,7 +22,7 @@ const MiBox = () => {
       <Box display="flex" width="200px" height="200px" bgcolor="success.main" p={2}>
         Hey I am Box
       </Box>
-    </Box>
+    </Stack>
   );
 };
 
