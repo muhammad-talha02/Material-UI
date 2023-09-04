@@ -4,7 +4,7 @@
 
 import MIRadio from "./components/MIRadio"
 import MiAutocomplete from "./components/MiAutocomplete"
-import MiBox from "./components/MiBox"
+import MiBox from "./components/MiLayout"
 import MiCheckbox from "./components/MiCheckbox"
 import MiRating from "./components/MiRating"
 
