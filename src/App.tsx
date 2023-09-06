@@ -10,6 +10,7 @@ import MiRating from "./components/MiRating"
 
 import MiSelect from "./components/MiSelect"
 import MiSwitch from "./components/MiSwitch"
+import MiCard from './components/MiCard'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
       {/* <MiSwitch /> */}
       {/* <MiRating/> */}
       {/* <MiAutocomplete/> */}
-      <MiBox/>
+      {/* <MiBox/> */}
+      <MiCard/>
     </>
   )
 }
