@@ -11,6 +11,7 @@ import MiRating from "./components/MiRating"
 import MiSelect from "./components/MiSelect"
 import MiSwitch from "./components/MiSwitch"
 import MiCard from './components/MiCard'
+import MiAccordion from './components/MiAccordion'
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
       {/* <MiRating/> */}
       {/* <MiAutocomplete/> */}
       {/* <MiBox/> */}
-      <MiCard/>
+      {/* <MiCard/> */}
+      <MiAccordion/>
     </>
   )
 }
