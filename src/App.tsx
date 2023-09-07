@@ -12,6 +12,7 @@ import MiSelect from "./components/MiSelect"
 import MiSwitch from "./components/MiSwitch"
 import MiCard from './components/MiCard'
 import MiAccordion from './components/MiAccordion'
+import MiImageList from './components/MiImageList'
 
 function App() {
 
@@ -30,7 +31,8 @@ function App() {
       {/* <MiAutocomplete/> */}
       {/* <MiBox/> */}
       {/* <MiCard/> */}
-      <MiAccordion/>
+      {/* <MiAccordion/> */}
+      <MiImageList/>
     </>
   )
 }
