@@ -13,6 +13,7 @@ import MiSwitch from "./components/MiSwitch"
 import MiCard from './components/MiCard'
 import MiAccordion from './components/MiAccordion'
 import MiImageList from './components/MiImageList'
+import MiNavbar from './components/MiNavbar'
 
 function App() {
 
@@ -32,7 +33,8 @@ function App() {
       {/* <MiBox/> */}
       {/* <MiCard/> */}
       {/* <MiAccordion/> */}
-      <MiImageList/>
+      {/* <MiImageList/> */}
+      <MiNavbar/>
     </>
   )
 }
