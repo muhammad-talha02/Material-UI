@@ -14,6 +14,7 @@ import MiCard from './components/MiCard'
 import MiAccordion from './components/MiAccordion'
 import MiImageList from './components/MiImageList'
 import MiNavbar from './components/MiNavbar'
+import MiLink from './components/MiLink'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       {/* <MiAccordion/> */}
       {/* <MiImageList/> */}
       <MiNavbar/>
+      <MiLink/>
     </>
   )
 }
