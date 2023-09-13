@@ -15,6 +15,7 @@ import MiAccordion from './components/MiAccordion'
 import MiImageList from './components/MiImageList'
 import MiNavbar from './components/MiNavbar'
 import MiLink from './components/MiLink'
+import MuiBreadcrumbs from './components/MuiBreadcrumbs'
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
       {/* <MiAccordion/> */}
       {/* <MiImageList/> */}
       <MiNavbar/>
-      <MiLink/>
+      {/* <MiLink/> */}
+      <MuiBreadcrumbs/>
     </>
   )
 }
