@@ -16,6 +16,8 @@ import MiImageList from './components/MiImageList'
 import MiNavbar from './components/MiNavbar'
 import MiLink from './components/MiLink'
 import MuiBreadcrumbs from './components/MuiBreadcrumbs'
+import MiDrawer from './components/MiDrawer'
+import MiSpeedDial from './components/MiSpeedDial'
 
 function App() {
 
@@ -38,7 +40,9 @@ function App() {
       {/* <MiImageList/> */}
       <MiNavbar/>
       {/* <MiLink/> */}
-      <MuiBreadcrumbs/>
+      {/* <MuiBreadcrumbs/> */}
+      <MiDrawer/>
+      <MiSpeedDial/>
     </>
   )
 }
