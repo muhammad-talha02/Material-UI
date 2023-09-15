@@ -18,11 +18,12 @@ import MiLink from './components/MiLink'
 import MuiBreadcrumbs from './components/MuiBreadcrumbs'
 import MiDrawer from './components/MiDrawer'
 import MiSpeedDial from './components/MiSpeedDial'
-
+import MiBottomNavigation from './components/MiBottomNavigation'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
 
   return (
-    <>
+    <BrowserRouter>
       {/* <MiButtons/> */}
       {/* <MiTextField/> */}
       {/* <MiSelect/> */}
@@ -42,8 +43,9 @@ function App() {
       {/* <MiLink/> */}
       {/* <MuiBreadcrumbs/> */}
       <MiDrawer/>
-      <MiSpeedDial/>
-    </>
+      {/* <MiSpeedDial/> */}
+      <MiBottomNavigation/>
+    </BrowserRouter>
   )
 }
 
