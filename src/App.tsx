@@ -21,6 +21,7 @@ import MiSpeedDial from './components/MiSpeedDial'
 import MiBottomNavigation from './components/MiBottomNavigation'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MiAvatar from './components/MiAvatar'
+import Mibadge from './components/Mibadge'
 function App() {
 
   return (
@@ -46,7 +47,8 @@ function App() {
       <MiDrawer/>
       {/* <MiSpeedDial/> */}
       <MiBottomNavigation/>
-      <MiAvatar/>
+      {/* <MiAvatar/> */}
+      <Mibadge/>
     </BrowserRouter>
   )
 }
