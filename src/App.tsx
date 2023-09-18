@@ -22,6 +22,7 @@ import MiBottomNavigation from './components/MiBottomNavigation'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MiAvatar from './components/MiAvatar'
 import Mibadge from './components/Mibadge'
+import MiList from './components/MiList'
 function App() {
 
   return (
@@ -49,6 +50,7 @@ function App() {
       <MiBottomNavigation/>
       {/* <MiAvatar/> */}
       <Mibadge/>
+      <MiList/>
     </BrowserRouter>
   )
 }
