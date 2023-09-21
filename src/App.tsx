@@ -24,6 +24,7 @@ import MiAvatar from './components/MiAvatar'
 import Mibadge from './components/Mibadge'
 import MiList from './components/MiList'
 import MiChip from './components/MiChip'
+import MiTooltip from './components/MiTooltip'
 function App() {
 
   return (
@@ -53,6 +54,7 @@ function App() {
       {/* <Mibadge/> */}
       {/* <MiList/> */}
       <MiChip/>
+      <MiTooltip/>
     </BrowserRouter>
   )
 }
