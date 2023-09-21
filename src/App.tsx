@@ -24,6 +24,8 @@ import MiAvatar from './components/MiAvatar'
 import Mibadge from './components/Mibadge'
 import MiList from './components/MiList'
 import MiChip from './components/MiChip'
+import MiTooltip from './components/MiTooltip'
+import MiTable from './components/MiTable'
 function App() {
 
   return (
@@ -48,11 +50,13 @@ function App() {
       {/* <MuiBreadcrumbs/> */}
       <MiDrawer/>
       {/* <MiSpeedDial/> */}
-      <MiBottomNavigation/>
+      {/* <MiBottomNavigation/> */}
       {/* <MiAvatar/> */}
       {/* <Mibadge/> */}
       {/* <MiList/> */}
       <MiChip/>
+      {/* <MiTooltip/> */}
+      <MiTable/>
     </BrowserRouter>
   )
 }
