@@ -27,6 +27,7 @@ import MiChip from './components/MiChip'
 import MiTooltip from './components/MiTooltip'
 import MiTable from './components/MiTable'
 import MiAlert from './components/MiAlert'
+import SnackbarCom from './components/Snackbar'
 function App() {
 
   return (
@@ -58,7 +59,8 @@ function App() {
       <MiChip/>
       {/* <MiTooltip/> */}
       {/* <MiTable/> */}
-      <MiAlert/>
+      {/* <MiAlert/> */}
+      <SnackbarCom/>
     </BrowserRouter>
   )
 }
