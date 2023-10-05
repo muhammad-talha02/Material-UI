@@ -28,6 +28,7 @@ import MiTooltip from './components/MiTooltip'
 import MiTable from './components/MiTable'
 import MiAlert from './components/MiAlert'
 import SnackbarCom from './components/Snackbar'
+import MiDialog from './components/MiDialog'
 function App() {
 
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <MiTooltip/> */}
       {/* <MiTable/> */}
       {/* <MiAlert/> */}
-      <SnackbarCom/>
+      {/* <SnackbarCom/> */}
+      <MiDialog/>
     </BrowserRouter>
   )
 }
