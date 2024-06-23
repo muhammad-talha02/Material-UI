@@ -61,6 +61,8 @@ function App() {
       {/* <MiTable/> */}
       {/* <MiAlert/> */}
       <SnackbarCom/>
+        <MiAutocomplete/>
+
     </BrowserRouter>
   )
 }
