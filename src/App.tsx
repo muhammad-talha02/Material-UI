@@ -61,8 +61,9 @@ function App() {
       {/* <MiTooltip/> */}
       {/* <MiTable/> */}
       {/* <MiAlert/> */}
-      {/* <SnackbarCom/> */}
-      <MiDialog/>
+      <SnackbarCom/>
+        <MiAutocomplete/>
+
     </BrowserRouter>
   )
 }
