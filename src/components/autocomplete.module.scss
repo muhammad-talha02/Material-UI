@@ -1,0 +1,44 @@
+.customAutocomplete{
+    :global{
+        .MuiInputBase-root{
+          background-color: #f0f0f0;
+          border-radius: 8px;
+        }
+    
+        // .MuiAutocomplete-tag {
+        //   background-color: #1976d2;
+        //   color: #ffffff;
+        // }
+
+          .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+            // Border styles on hover for outlined variant
+            border-color: green;
+
+          }
+          .MuiInputLabel-root.Mui-focused {
+            color: black;
+          }
+          .MuiInput-root:hover:not(.Mui-disabled):before {
+            // Hover styles for standard variant
+                        // border: 1px solid black;
+
+          }
+          .MuiInputBase-input {
+            // Styles for the input element
+            // color: red;
+        }
+        
+        // Placeholder
+        .MuiInputBase-input::placeholder {
+            //   color: red;
+            // Styles for the placeholder text
+          }
+        
+
+
+          .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border-color: gray;
+          }
+        
+}
+}
